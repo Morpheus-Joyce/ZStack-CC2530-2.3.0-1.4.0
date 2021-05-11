@@ -1,11 +1,12 @@
 [DebugChecksum]
-Checksum=1980248099
+Checksum=1700636338
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
 Category=_ 0
 [Breakpoints]
-Count=0
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\Enddevice.c}.101.1@1" 1 0 0 0 "" 0 ""
+Count=1
 [ChipconEmu]
 Stop timers on halt=1
 Leave target running=1

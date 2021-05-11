@@ -2,7 +2,7 @@
 #                                                                              #
 #      IAR Universal Linker V5.0.2.5/W32                                       #
 #                                                                              #
-#           Link time     =  10/May/2021  16:27:05                             #
+#           Link time     =  11/May/2021  08:56:33                             #
 #           Target CPU    =  x51                                               #
 #           List file     =  "C:\Texas Instruments\ZStack-CC2530-2.3.0-1.4.0\P #
 #                            rojects\zstack\Samples\GenericApp\CC2530DB\Coordi #
@@ -29,7 +29,7 @@
 #                            -D_CODEBANK_START=0x8000 -D?CBANK_MASK=0x07       #
 #                            -D?CBANK=0x9F                                     #
 #                            "-IC:\Program Files (x86)\IAR Systems\Embedded Wo #
-#                            rkbench 6.0 Evaluation\8051\CONFIG\"              #
+#                            rkbench 6.0 Evaluation_3\8051\CONFIG\"            #
 #                            "C:\Texas Instruments\ZStack-CC2530-2.3.0-1.4.0\P #
 #                            rojects\zstack\Samples\GenericApp\CC2530DB\Coordi #
 #                            natorEB\Obj\AF.r51"                               #
@@ -226,7 +226,7 @@
 #                            natorEB\List\GenericApp.map"                      #
 #                            -xmsn                                             #
 #                            "-IC:\Program Files (x86)\IAR Systems\Embedded Wo #
-#                            rkbench 6.0 Evaluation\8051\LIB\"                 #
+#                            rkbench 6.0 Evaluation_3\8051\LIB\"               #
 #                            -f                                                #
 #                            "C:\Texas Instruments\ZStack-CC2530-2.3.0-1.4.0\P #
 #                            rojects\zstack\Samples\GenericApp\CC2530DB\..\..\ #
@@ -296,8 +296,8 @@
 #                            -e_medium_read=_formatted_read -we24=i -rt -s     #
 #                            __program_start                                   #
 #                            "C:\Program Files (x86)\IAR Systems\Embedded Work #
-#                            bench 6.0 Evaluation\8051\LIB\CLIB\cl-pli-blxd-1e #
-#                            16x01.r51"                                        #
+#                            bench 6.0 Evaluation_3\8051\LIB\CLIB\cl-pli-blxd- #
+#                            1e16x01.r51"                                      #
 #                            -D_IDATA_STACK_SIZE=0xC0                          #
 #                            -D_EXTENDED_STACK_START=0x00                      #
 #                            -D_EXTENDED_STACK_SIZE=0x00                       #
@@ -34328,7 +34328,7 @@ XDATA_Z
 
     *************************************************************************
 
-  FILE NAME : C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\8051\LIB\CLIB\cl-pli-blxd-1e16x01.r51
+  FILE NAME : C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation_3\8051\LIB\CLIB\cl-pli-blxd-1e16x01.r51
   LIBRARY MODULE, NAME : ?cexit
 
   SEGMENTS IN THE MODULE
