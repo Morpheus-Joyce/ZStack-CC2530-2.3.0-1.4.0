@@ -155,20 +155,20 @@
         <option>
           <name>Input variant</name>
           <version>0</version>
-          <state>1</state>
+          <state>2</state>
         </option>
         <option>
           <name>Input description</name>
-          <state>Full formatting.</state>
+          <state>No float.</state>
         </option>
         <option>
           <name>Output variant</name>
           <version>0</version>
-          <state>1</state>
+          <state>3</state>
         </option>
         <option>
           <name>Output description</name>
-          <state>Full formatting.</state>
+          <state>No float, no field width, no precision.</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -6372,7 +6372,7 @@
     <file>
       <name>$PROJ_DIR$\Coordinator.c</name>
       <excluded>
-        <configuration>EndDeviceEB</configuration>
+        <configuration>CoordinatorEB</configuration>
       </excluded>
     </file>
     <file>
@@ -6380,9 +6380,6 @@
     </file>
     <file>
       <name>$PROJ_DIR$\Enddevice.c</name>
-      <excluded>
-        <configuration>CoordinatorEB</configuration>
-      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\..\Source\OSAL_GenericApp.c</name>
@@ -6670,7 +6667,7 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_TASK.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_TASK.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mt\MT_TASK.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_UART.c</name>
@@ -6883,7 +6880,7 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDNwkMgr.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDNwkMgr.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\zdo\ZDNwkMgr.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDObject.c</name>

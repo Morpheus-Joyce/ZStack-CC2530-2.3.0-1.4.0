@@ -2,47 +2,211 @@
 
 <Workspace>
   <ConfigDictionary>
-    
-  <CurrentConfigs><Project>GenericApp/CoordinatorEB</Project></CurrentConfigs></ConfigDictionary>
+    <CurrentConfigs>
+      <Project>GenericApp/CoordinatorEB</Project>
+    </CurrentConfigs>
+  </ConfigDictionary>
   <Desktop>
     <Static>
       <Workspace>
         <ColumnWidths>
-          
-          
-          
-          
-        <Column0>166</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+          <Column0>247</Column0>
+          <Column1>27</Column1>
+          <Column2>27</Column2>
+          <Column3>27</Column3>
+        </ColumnWidths>
       </Workspace>
-    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>480</ColumnWidth1><ColumnWidth2>128</ColumnWidth2><ColumnWidth3>32</ColumnWidth3></Build><TerminalIO/></Static>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1107</ColumnWidth1>
+        <ColumnWidth2>295</ColumnWidth2>
+        <ColumnWidth3>73</ColumnWidth3>
+      </Build>
+      <Debug-Log>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>760</ColumnWidth1>
+      </Debug-Log>
+    </Static>
     <Windows>
-      
-    <Wnd0>
+      <Wnd0>
         <Tabs>
           <Tab>
-            <Identity>TabID-9374-15837</Identity>
+            <Identity>TabID-6990-15677</Identity>
             <TabName>Workspace</TabName>
             <Factory>Workspace</Factory>
             <Session>
-              
-            <NodeDict><ExpandedNode>GenericApp</ExpandedNode><ExpandedNode>GenericApp/App</ExpandedNode><ExpandedNode>GenericApp/HAL</ExpandedNode><ExpandedNode>GenericApp/HAL/Target</ExpandedNode><ExpandedNode>GenericApp/HAL/Target/CC2530EB</ExpandedNode><ExpandedNode>GenericApp/HAL/Target/CC2530EB/Config</ExpandedNode></NodeDict></Session>
+              <NodeDict>
+                <ExpandedNode>GenericApp</ExpandedNode>
+                <ExpandedNode>GenericApp/App</ExpandedNode>
+                <ExpandedNode>GenericApp/HAL</ExpandedNode>
+                <ExpandedNode>GenericApp/HAL/Target</ExpandedNode>
+                <ExpandedNode>GenericApp/HAL/Target/CC2530EB</ExpandedNode>
+                <ExpandedNode>GenericApp/HAL/Target/CC2530EB/Config</ExpandedNode>
+                <ExpandedNode>GenericApp/Tools</ExpandedNode>
+              </NodeDict>
+            </Session>
           </Tab>
         </Tabs>
-        
-      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-12624-5506</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1></Windows>
+        <SelectedTab>0</SelectedTab>
+      </Wnd0>
+      <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-3276-973</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-17372-9101</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        <SelectedTab>0</SelectedTab>
+      </Wnd1>
+    </Windows>
     <Editor>
-      
-      
-      
-      
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Coordinator.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1007</SelStart><SelEnd>1007</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Enddevice.c</Filename><XPos>0</XPos><YPos>133</YPos><SelStart>4362</SelStart><SelEnd>4362</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\ZMain\TI2530DB\ZMain.c</Filename><XPos>0</XPos><YPos>102</YPos><SelStart>4047</SelStart><SelEnd>4047</SelEnd></Tab><ActiveTab>2</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+      <Pane>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\..\..\..\COMPONENTS\hal\target\CC2530EB\hal_board_cfg.h</Filename>
+          <XPos>0</XPos>
+          <YPos>99</YPos>
+          <SelStart>5967</SelStart>
+          <SelEnd>5967</SelEnd>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\Source\GenericApp.h</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\Source\OSAL_GenericApp.c</Filename>
+          <XPos>0</XPos>
+          <YPos>48</YPos>
+          <SelStart>2925</SelStart>
+          <SelEnd>2925</SelEnd>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\..\Tools\CC2530DB\f8w2530.xcl</Filename>
+          <XPos>0</XPos>
+          <YPos>69</YPos>
+          <SelStart>3382</SelStart>
+          <SelEnd>3382</SelEnd>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\..\Tools\CC2530DB\f8wConfig.cfg</Filename>
+          <XPos>0</XPos>
+          <YPos>33</YPos>
+          <SelStart>2098</SelStart>
+          <SelEnd>2098</SelEnd>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\Coordinator.h</Filename>
+          <XPos>0</XPos>
+          <YPos>12</YPos>
+          <SelStart>1118</SelStart>
+          <SelEnd>1118</SelEnd>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\Coordinator.c</Filename>
+          <XPos>0</XPos>
+          <YPos>45</YPos>
+          <SelStart>1701</SelStart>
+          <SelEnd>1854</SelEnd>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\Enddevice.c</Filename>
+          <XPos>0</XPos>
+          <YPos>24</YPos>
+          <SelStart>3070</SelStart>
+          <SelEnd>3070</SelEnd>
+        </Tab>
+        <ActiveTab>7</ActiveTab>
+      </Pane>
+      <ActivePane>0</ActivePane>
+      <Sizes>
+        <Pane>
+          <X>1000000</X>
+          <Y>1000000</Y>
+        </Pane>
+      </Sizes>
+      <SplitMode>1</SplitMode>
+    </Editor>
     <Positions>
-      
-      
-      
-      
-      
-    <Top><Row0><Sizes><Toolbar-057914a8><key>iaridepm.enu1</key></Toolbar-057914a8></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>667</Bottom><Right>240</Right><x>-2</x><y>-2</y><xscreen>208</xscreen><yscreen>176</yscreen><sizeHorzCX>135417</sizeHorzCX><sizeHorzCY>225352</sizeHorzCY><sizeVertCX>157552</sizeVertCX><sizeVertCY>856594</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>69</Bottom><Right>1538</Right><x>-2</x><y>-2</y><xscreen>1540</xscreen><yscreen>71</yscreen><sizeHorzCX>1002604</sizeHorzCX><sizeHorzCY>90909</sizeHorzCY><sizeVertCX>130208</sizeVertCX><sizeVertCY>256082</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+      <Top>
+        <Row0>
+          <Sizes>
+            <Toolbar-00ec0378>
+              <key>iaridepm.enu1</key>
+            </Toolbar-00ec0378>
+          </Sizes>
+        </Row0>
+      </Top>
+      <Left>
+        <Row0>
+          <Sizes>
+            <Wnd0>
+              <Rect>
+                <Top>-2</Top>
+                <Left>-2</Left>
+                <Bottom>536</Bottom>
+                <Right>338</Right>
+                <x>-2</x>
+                <y>-2</y>
+                <xscreen>200</xscreen>
+                <yscreen>200</yscreen>
+                <sizeHorzCX>130208</sizeHorzCX>
+                <sizeHorzCY>256082</sizeHorzCY>
+                <sizeVertCX>221354</sizeVertCX>
+                <sizeVertCY>688860</sizeVertCY>
+              </Rect>
+            </Wnd0>
+          </Sizes>
+        </Row0>
+      </Left>
+      <Right>
+        <Row0>
+          <Sizes/>
+        </Row0>
+      </Right>
+      <Bottom>
+        <Row0>
+          <Sizes>
+            <Wnd1>
+              <Rect>
+                <Top>-2</Top>
+                <Left>-2</Left>
+                <Bottom>200</Bottom>
+                <Right>1538</Right>
+                <x>-2</x>
+                <y>-2</y>
+                <xscreen>1540</xscreen>
+                <yscreen>202</yscreen>
+                <sizeHorzCX>1002604</sizeHorzCX>
+                <sizeHorzCY>258643</sizeHorzCY>
+                <sizeVertCX>130208</sizeVertCX>
+                <sizeVertCY>256082</sizeVertCY>
+              </Rect>
+            </Wnd1>
+          </Sizes>
+        </Row0>
+      </Bottom>
+      <Float>
+        <Sizes/>
+      </Float>
+    </Positions>
   </Desktop>
 </Workspace>
 
