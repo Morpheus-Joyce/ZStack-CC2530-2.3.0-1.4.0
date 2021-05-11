@@ -155,20 +155,20 @@
         <option>
           <name>Input variant</name>
           <version>0</version>
-          <state>2</state>
+          <state>1</state>
         </option>
         <option>
           <name>Input description</name>
-          <state>No float.</state>
+          <state>Full formatting.</state>
         </option>
         <option>
           <name>Output variant</name>
           <version>0</version>
-          <state>3</state>
+          <state>1</state>
         </option>
         <option>
           <name>Output description</name>
-          <state>No float, no field width, no precision.</state>
+          <state>Full formatting.</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -6370,16 +6370,19 @@
   <group>
     <name>App</name>
     <file>
-      <name>$PROJ_DIR$\..\Source\Coordinator.c</name>
+      <name>$PROJ_DIR$\Coordinator.c</name>
       <excluded>
-        <configuration>CoordinatorEB</configuration>
+        <configuration>EndDeviceEB</configuration>
       </excluded>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\Coordinator.h</name>
+      <name>$PROJ_DIR$\Coordinator.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\Enddevice.c</name>
+      <name>$PROJ_DIR$\Enddevice.c</name>
+      <excluded>
+        <configuration>CoordinatorEB</configuration>
+      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\..\Source\OSAL_GenericApp.c</name>
@@ -6539,7 +6542,7 @@
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\mac_backoff_timer.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\mac_backoff_timer.h</name>
+          <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\LOW_LEVEL\srf04\mac_backoff_timer.h</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\mac_low_level.c</name>
@@ -6584,7 +6587,7 @@
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_csp_tx.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_csp_tx.h</name>
+          <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\LOW_LEVEL\srf04\SINGLE_CHIP\mac_csp_tx.h</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_mcu.c</name>
@@ -6596,13 +6599,13 @@
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_mem.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_mem.h</name>
+          <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\LOW_LEVEL\srf04\SINGLE_CHIP\mac_mem.h</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_radio_defs.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_radio_defs.h</name>
+          <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\LOW_LEVEL\srf04\SINGLE_CHIP\mac_radio_defs.h</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_rffrontend.c</name>
@@ -6673,7 +6676,7 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_UART.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mt\MT_UART.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_UART.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_UTIL.c</name>
